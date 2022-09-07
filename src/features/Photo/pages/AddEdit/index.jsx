@@ -1,6 +1,6 @@
+import Banner from 'components/Banner';
+import PhotoForm from 'features/Photo/components/FormPhoto';
 import React from 'react';
-import Banner from '../../../../components/Banner';
-import PhotoForm from '../../components/FormPhoto';
 
 function AddEditPage(props) {
   return (
