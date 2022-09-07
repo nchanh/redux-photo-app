@@ -16,11 +16,11 @@ function App() {
           <Header />
 
           <Routes>
-            <Route exact from="/" to="/photos" />
+            <Route path="/" element={<Photo />} />
 
             <Route path="/photos/*" element={<Photo />} />
 
-            <Route path="*" element={<NotFound />} />
+            <Route element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </Suspense>
